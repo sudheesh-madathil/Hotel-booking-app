@@ -1,0 +1,131 @@
+.homeContainer{
+margin-top: 36px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+
+
+}
+
+.homeTitile {
+    max-width: 800px;
+    width: 100%;
+    font-size: 20px;
+
+
+
+}
+.featured{
+  
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+  background: #2d67a2;
+  object-fit: cover;
+    display: flex;
+   
+ 
+    gap: 10px;
+    z-index: 1;
+}
+.featuredImg{
+    width: 100%;
+   
+  
+  
+  
+  
+
+   
+}
+.featuredItem{
+    position: relative;
+    color: rgb(249, 246, 246);
+    border-radius: 10px;
+    overflow: hidden;
+   
+    object-fit: cover;
+
+
+}
+.featuredTittles{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+
+
+
+}
+@media (max-width:426) {
+    .homeContainer{
+     /* margin-top: 86px; */
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+        
+   
+        }
+        
+        .homeTitile {
+         object-fit: cover;
+     
+            font-size: 20px;
+        
+         
+        
+        }
+        .featured{
+          
+            height: 200px;
+            padding: 10px;
+            border-radius: 10px;
+          background: #2d67a2;
+          object-fit: cover;
+            display: flex;
+           
+         
+            gap: 10px;
+            z-index: 1;
+        }
+        .featuredImg{
+            width: 100%;
+           
+          
+          
+          
+          
+        
+           
+        }
+        .featuredItem{
+            margin-top: 200px;
+            position: relative;
+            color: rgb(240, 236, 236);
+            border-radius: 10px;
+            overflow: hidden;
+
+            object-fit: cover;
+        
+        
+        }
+        .featuredTittles{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+          font-size: small;
+          gap: 12px;
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+        
+        }
+    .ptitile{
+        color: aqua;
+       
+    }
+}

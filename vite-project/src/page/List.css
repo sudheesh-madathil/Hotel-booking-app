@@ -1,0 +1,201 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+
+
+
+
+
+} 
+.listWrapper{
+width: 100%;
+max-width: 1024px;
+display: flex;
+gap: 20px;
+
+}
+.listSearch {
+    border: 2px solid;
+    border-image: linear-gradient(to right, #ff8a00, #e52e71);
+    border-image-slice: 1;
+    padding: 10px;
+  /* Add this line to specify the top position */
+    border-radius: 10px;
+    padding: 5px;
+    flex: 1;
+    background: rgb(5 58 94);
+    height: max-content;
+    top: 0;
+    position: sticky;
+  }
+  
+.listResult{flex: 3;}
+.lsTitle{
+    margin-left: 66px;
+    font-size: 20px;
+ color:rgb(204, 214, 220);
+ margin-bottom: 0px;
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+.lsItem>label{
+    font-size: 12px;
+    color: #ffffff;
+}
+.lsItem>input{
+    text-align: center;
+border: none;
+padding: 5px;
+}
+.lsItem>span{
+
+    border: none;
+    padding: 5px;
+    background: white;
+    }
+ 
+  
+  .custom-date-range {
+    width: 200px; /* Adjust the width as needed */
+    object-fit: cover;
+  }
+  .rdrMonth {
+    width: 15.667em;
+}
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 12px;
+    color: aliceblue;
+
+} 
+.lsOptionInput{
+    width: 50px;
+    border: none;
+    text-align: center;
+color: aqua;
+}
+.lsItem>button{
+    margin-top: 10px;
+
+color: white;
+    background: blue;
+    border: none;
+text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+
+}
+@media(max-width:426) {
+    .listContainer{
+    display: flex;
+  justify-content: center;
+
+    margin-top: 20px;
+  
+
+
+
+
+
+} 
+.listWrapper{
+width: 100%;
+max-width: 1024px;
+
+gap: 20px;
+
+}
+.listSearch {
+    border: 2px solid;
+    border-image: linear-gradient(to right, #ff8a00, #e52e71);
+    border-image-slice: 1;
+    padding: 10px;
+  /* Add this line to specify the top position */
+    border-radius: 10px;
+    padding: 5px;
+    flex: 1;
+    background: rgb(5 58 94);
+    height: max-content;
+
+
+  }
+  
+.listResult{flex: 3;}
+.lsTitle{
+    margin-left: 66px;
+    font-size: 20px;
+ color:rgb(204, 214, 220);
+ margin-bottom: 0px;
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+flex-wrap: wrap;
+}
+.lsItem>label{
+    font-size: 12px;
+    color: #ffffff;
+}
+.lsItem>input{
+    text-align: center;
+border: none;
+padding: 5px;
+}
+.lsItem>span{
+
+    border: none;
+    padding: 5px;
+    background: white;
+    }
+ 
+  
+  .custom-date-range {
+    width: 200px; /* Adjust the width as needed */
+    object-fit: cover;
+  }
+  .rdrMonth {
+    width: 15.667em;
+}
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 12px;
+    color: aliceblue;
+
+} 
+.lsOptionInput{
+    width: 50px;
+    border: none;
+    text-align: center;
+color: aqua;
+}
+.lsItem>button{
+    margin-top: 10px;
+
+color: white;
+    background: blue;
+    border: none;
+text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+
+}
+
+
+}
